@@ -64,7 +64,7 @@ describe("Should check the SignUp forms on RocketChat" , async () => {
         await browser.pause(100);
 
         await signUpPage.submitClick();
-        await browser.pause(100);
+        await browser.back();
         })
 
         }   
